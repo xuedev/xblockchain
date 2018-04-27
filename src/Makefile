@@ -8,6 +8,6 @@ build:
 
 run:
 	@echo "==> Running"
-	@./$(BINARY)
+	@./$(BINARY) print
 
 .PHONY: build run
